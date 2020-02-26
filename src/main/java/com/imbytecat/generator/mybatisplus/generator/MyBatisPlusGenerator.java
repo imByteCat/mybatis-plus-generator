@@ -17,10 +17,10 @@ public class MyBatisPlusGenerator {
     private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false";
     private static final String DB_USERNAME = "root";
     private static final String DB_PASSWORD = "root";
-    // 数据库表名（用英文逗号分隔多个表名；如果为空，则默认读取所有表名）
-    private static final String TABLE_NAME = "user";
+    // 数据库表名（用英文逗号分隔多个表名）
+    private static final String TABLE_NAME = "morgenlicht_content,morgenlicht_meta,morgenlicht_option,morgenlicht_relationship,morgenlicht_user";
     // 表前缀，如：“wp_”，没有则留空
-    private static final String TABLE_PREFIX = "";
+    private static final String TABLE_PREFIX = "morgenlicht_";
     private static final String AUTHOR = "imByteCat";
     private static final String PARENT_PACKAGE = "com.imbytecat.generator.mybatisplus";
 
